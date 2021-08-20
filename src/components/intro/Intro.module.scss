@@ -1,0 +1,31 @@
+.header {
+    min-height: 500px;
+    height: 96vh;
+    padding-top: 3%;
+    background-color: rgb(2, 135, 139);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    &__h1 {
+        font-size: 6em;
+        text-align: left;
+        margin: 0px;
+    }
+
+    &__color {
+        color: rgb(214, 211, 211);
+    }
+
+    &__list {
+        width: 300px;
+        padding-left: 35%;
+        margin: 0px;
+        &_item {
+            padding-left: 50%;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.footer {
+    height: 18vh;
+    background-color: rgba(0, 115, 119, 0.733);
+    color: rgb(214, 211, 211);
+    &__icon {
+        padding: 2% 1% 0% 0%;
+        color: black;
+    }
+}

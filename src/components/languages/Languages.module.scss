@@ -1,0 +1,16 @@
+.languages {
+    background-color: rgb(2, 135, 139);
+    min-height: 100vh;
+    padding-top: 1%;
+    color: rgb(214, 211, 211);
+    &__title {
+        font-size: 4rem;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 80%;
+        max-width: 750px;
+        margin: auto;
+    }
+}
