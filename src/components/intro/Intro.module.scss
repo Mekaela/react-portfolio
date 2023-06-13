@@ -5,27 +5,27 @@
     background-color: rgb(2, 135, 139);
     color: black;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
 
     &__h1 {
-        font-size: 6em;
+        font-size: 3em;
         text-align: left;
-        margin: 0px;
+        margin: 50px 10% 0% 10%;
     }
 
     &__color {
         color: rgb(214, 211, 211);
     }
 
-    &__list {
-        width: 300px;
-        padding-left: 35%;
-        margin: 0px;
-        &_item {
-            padding-left: 50%;
+    &__intro {
+        // padding: 5%;
+        &_paragraph {
+            font-size: 0.8em;
+            margin: 30px 11%;
+            color: rgb(48, 48, 48);
+            text-align: left;
+            max-width: 600px;
         }
     }
 }
