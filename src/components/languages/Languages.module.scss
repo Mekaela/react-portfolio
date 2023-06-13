@@ -1,16 +1,25 @@
 .languages {
     background-color: rgb(2, 135, 139);
     min-height: 100vh;
-    padding-top: 1%;
+    padding: 1% 0%;
     color: rgb(214, 211, 211);
     &__title {
-        font-size: 4rem;
+        font-size: 2rem;
     }
     &__list {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 80%;
+        width: 70%;
         max-width: 750px;
         margin: auto;
+        &__item {
+            font-size: 0.8em;
+            margin: 20px 0px;
+            &_name {
+                margin: 1%;
+                font-weight: bold;
+            }
+            &_desc {
+                margin: 1%;
+            }
+        }
     }
 }

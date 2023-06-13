@@ -11,7 +11,7 @@ const Intro = () => {
                 <Typewriter
                         onInit={(typewriter) => {
                             typewriter
-                                .typeString("A Software Engineer")
+                                .typeString("A Software Developer")
                                 .pauseFor(1000)
                                 .deleteAll()
                                 .typeString("Analytical")

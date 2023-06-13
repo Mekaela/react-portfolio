@@ -7,20 +7,21 @@
     }
     &__title {
         text-align: center;
-        font-size: 4em;
+        font-size: 2em;
     }
     &__text {
         text-align: center;
         margin: 3px auto;
         width: 50%;
+        font-size: 0.7em;
     }
     &__img {
-        max-width: 500px;
+        max-width: 200px;
         text-align: center;
         display: block;
         margin: auto;
         margin-bottom: 2%;
-        border: 20px solid rgb(71, 71, 71);
+        border: 10px solid rgb(71, 71, 71);
         border-radius: 15px;
     }
 }

@@ -8,14 +8,14 @@ const Navbar = () => {
     <div>
       <nav className={styles.nav}>
         <div className={styles.nav__item}>
-          <p>projects</p>
+          <p>experience</p>
         </div>
         <div className={styles.nav__item}>
           <p>contact</p>
           {/* <Link to="#contact" /> */}
         </div>
         <div className={styles.nav__item}>
-          <p><a className={styles.nav__item_link} href={CV}>cv</a></p>
+          <p>blog</p>
         </div>
       </nav>
     </div>
