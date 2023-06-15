@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 const Intro = () => {
     return (
         <div className={styles.header}>
-            <header >
+            <header>
                 <h1 className={styles.header__h1}>
                 I am <span className={styles.header__color}>
                 <Typewriter

@@ -5,7 +5,7 @@ import CV from '../../CV.pdf';
 
 const Navbar = () => {
   return (
-    <div>
+    <section>
       <nav className={styles.nav}>
         <div className={styles.nav__item}>
           <p>experience</p>
@@ -18,7 +18,7 @@ const Navbar = () => {
           <p>blog</p>
         </div>
       </nav>
-    </div>
+    </section>
   );
 };
 

@@ -3,21 +3,22 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    // padding-left: 57%;
     position: fixed;
-    top: 0;
-    // background-color: rgb(2, 135, 139);
+    background-color: rgba(2, 135, 139, 0.7);
+    height: 40px;
+    align-items: center;
     &__item {
         font-size: 130%;
         color: rgb(199, 199, 199);
         font-weight: bold;
         padding-right:3%;
-        &_link {
-            color: rgb(199, 199, 199);
-            text-decoration: none;
-            &:hover {
-                color: black;
-            }
-        }
+        
+        // &_link {
+        //     color: rgb(199, 199, 199);
+        //     text-decoration: none;
+        //     &:hover {
+        //         color: black;
+        //     }
+        // }
     }
  }
