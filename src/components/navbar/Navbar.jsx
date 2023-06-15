@@ -1,21 +1,17 @@
 import React from "react";
-import styles from './Navbar.module.scss';
-import CV from '../../CV.pdf';
-// import { Link } from "react-router-dom";
+import styles from "./Navbar.module.scss";
+import { Link } from "react-router-dom";
+import Blog from "../../containers/blog/Blog";
 
 const Navbar = () => {
   return (
     <section>
       <nav className={styles.nav}>
         <div className={styles.nav__item}>
-          <p>experience</p>
-        </div>
-        <div className={styles.nav__item}>
           <p>contact</p>
-          {/* <Link to="#contact" /> */}
         </div>
         <div className={styles.nav__item}>
-          <p>blog</p>
+        <Link to="/blog" className={styles.nav__item_link}>blog</Link>
         </div>
       </nav>
     </section>

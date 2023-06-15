@@ -3,8 +3,6 @@ import styles from './Projects.module.scss';
 import inventory from '../../images/inventory.png';
 import farm from '../../images/farm.png';
 import salesforce from '../../images/salesforce.png';
-import { faSalesforce } from '@fortawesome/free-brands-svg-icons';
-
 
 const Projects = () => {
     return (
