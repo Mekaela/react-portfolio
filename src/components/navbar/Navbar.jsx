@@ -1,17 +1,17 @@
 import React from "react";
 import styles from "./Navbar.module.scss";
-import { Link } from "react-router-dom";
-import Blog from "../../containers/blog/Blog";
+import { Link as ScrollLink} from "react-scroll" ;
+import { Link } from "react-router-dom" ;
 
 const Navbar = () => {
   return (
     <section>
       <nav className={styles.nav}>
         <div className={styles.nav__item}>
-          <p>contact</p>
+          <ScrollLink activeClass="active" smooth spy to="contact" className={styles.nav__item_link}>contact</ScrollLink>
         </div>
         <div className={styles.nav__item}>
-        <Link to="/blog" className={styles.nav__item_link}>blog</Link>
+          <Link to="/blog" className={styles.nav__item_link}>blog</Link>
         </div>
       </nav>
     </section>
