@@ -4,11 +4,13 @@
     margin: 20px auto;
     background-color: rgb(188, 207, 209);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 2px;
     font-family: serif;
-    border: solid rgb(2, 135, 139) 0.5px;
     &:hover {
         background-color: rgb(157, 193, 198);
+    }
+    &__container {
+        min-height: 55vh;
     }
     &__date {
         margin: 0px;

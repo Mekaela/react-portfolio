@@ -2,6 +2,7 @@ import './App.css';
 import Home from './containers/home/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Blog from './containers/blog/Blog';
+import Post from './components/post/Post';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path='' element={<Home />} />
             <Route index element={<Blog />} />
             <Route path='blog' element={<Blog />} />
+            <Route path='/blog/:id' element={<Post/>}  />
           </Route>
         </Routes>
       </BrowserRouter>
