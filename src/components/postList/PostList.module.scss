@@ -1,0 +1,32 @@
+.post {
+    max-width: 70%;
+    text-align: left;
+    margin: 20px auto;
+    background-color: rgb(188, 207, 209);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: serif;
+    border: solid rgb(2, 135, 139) 0.5px;
+    &:hover {
+        background-color: rgb(157, 193, 198);
+    }
+    &__date {
+        margin: 0px;
+        font-size: 70%;
+    }
+    &__title {
+        // color: #12749C;
+        font-weight: normal;
+        margin: 0px;
+        color: rgb(0, 90, 94);
+
+    }
+    &__byline {
+        margin: 2px;
+        text-decoration: none;
+        font-size: 85%;
+    }
+    &__link {
+        text-decoration: none;
+    }
+}
