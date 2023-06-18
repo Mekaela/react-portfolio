@@ -10,7 +10,7 @@
         background-color: rgb(157, 193, 198);
     }
     &__container {
-        min-height: 55vh;
+        min-height: 48vh;
     }
     &__date {
         margin: 0px;
@@ -30,5 +30,6 @@
     }
     &__link {
         text-decoration: none;
+        color: black;
     }
 }

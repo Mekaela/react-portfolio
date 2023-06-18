@@ -26,3 +26,6 @@ export const getPost = async (id) => {
 
   return { id: docSnap.id, ...docSnap.data() };
 };
+
+
+// get markdown url using blogUrl (firebase storage)
