@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Navbar.module.scss";
-// import { Link as ScrollLink} from "react-scroll" ;
 import { Link } from "react-router-dom" ;
 
 const Navbar = () => {
@@ -12,6 +11,9 @@ const Navbar = () => {
         </div>
         <div className={styles.nav__item}>
           <Link to="/blog" className={styles.nav__item_link}>blog</Link>
+        </div>
+        <div className={styles.nav__item}>
+          <Link to="/faq" className={styles.nav__item_link}>FAQ</Link>
         </div>
       </nav>
     </section>

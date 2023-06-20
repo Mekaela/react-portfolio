@@ -8,27 +8,9 @@ const Contact = () => {
         <h1>
           Doing interesting work?
           <br />
-          <span className={styles.contact__title_chat}>Let's chat </span>
+          <span className={styles.contact__chat}>Contact me on <a className={styles.contact__chat_linkedIn} href="https://www.linkedin.com/in/mekaela-stevenson-b215b954/" >LinkedIn</a></span>
         </h1>
       </div>
-      <form className={styles.contact__form}>
-        <input
-          type="text"
-          placeholder="Name"
-          className={styles.contact__form_element}
-          required
-        ></input>
-        <input
-          type="text"
-          placeholder="Email"
-          className={styles.contact__form_element}
-          required
-        ></input>
-        <textarea className={styles.contact__form_element} required></textarea>
-        <button type="submit" className={styles.contact__form_button} rows="5">
-          Submit
-        </button>
-      </form>
     </section>
   );
 };

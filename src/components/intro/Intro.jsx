@@ -11,10 +11,10 @@ const Intro = () => {
                 <Typewriter
                         onInit={(typewriter) => {
                             typewriter
-                                .typeString("A Software Developer")
+                                .typeString("a Software Developer")
                                 .pauseFor(1000)
                                 .deleteAll()
-                                .typeString("Analytical")
+                                .typeString("analytical")
                                 .deleteAll()
                                 .typeString("Mekaela")
                                 .pauseFor(1000)
@@ -26,7 +26,7 @@ const Intro = () => {
 
                 <div className={styles.header__intro_paragraph}>
                     <p>Welcome to my portfolio. </p>
-                    <p>Here you'll find some projects I've worked on, some blog posts about my journey to learn about Data Science, and a skills matrix with my technical skills.</p>
+                    <p>Here you'll find some projects I've worked on, a look at my technical skills, blog posts about my journey to learn about Data Science, and a FAQ for recruiters.</p>
                     <p>My skills are a bit different to others. <br/>I'm a generalist with a wide variety of people and IT skills across several industry. </p>
                     <p>My dream is to use my IT skills to help the environment, thus combining my Environmental Science degree and Software Engineering experience.
                     </p>

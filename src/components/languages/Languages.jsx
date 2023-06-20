@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Languages.module.scss';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-import { faJs, faReact, faJava, faGitAlt, faGripfire, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faJs, faReact, faJava, faGitAlt, faGripfire, faPython, faSalesforce } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Languages = () => {
@@ -9,7 +9,7 @@ const Languages = () => {
     const languageList = [
         {
             "name": "Apex",
-            "img": faReact,
+            "img": faSalesforce,
             "description": "Used while working at Lendi as a Salesforce Software Engineer. About 90% of my coding was using Apex",
         },
         {
@@ -49,6 +49,7 @@ const Languages = () => {
         },
         {
             "name": "and...",
+            "img": null,
             "description": "I have also touched on Sass and Bootstrap while building websites, and R during online courses.",
         },
     ]
@@ -59,7 +60,7 @@ const Languages = () => {
             <div className={styles.languages__list}>
             {languageList.map((language) => (
                 <div key={language.name} className={styles.languages__list__item}>
-                    <FontAwesomeIcon icon={language.img} size="2x"/>
+                    <FontAwesomeIcon icon={language.img} size="2x"/> 
                     <div><p className={styles.languages__list__item_name}>{language.name}</p>
                     <p className={styles.languages__list__item_desc}>{language.description}</p></div>
                 </div>

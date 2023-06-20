@@ -1,0 +1,27 @@
+.faqs {
+    max-width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    font-family: sans-serif;
+    &__title {
+        margin: 0px;
+        font-weight: 500;
+    }
+    &__intro {
+        font-size: small;
+    }
+    &__container {
+        background-color: rgb(188, 207, 209);
+        padding: 10px;
+        border-radius: 5px;
+        margin: 20px 0px;
+    }
+    &__question {
+        margin: 5px;
+    }
+    &__answer {
+        margin: 0px;
+        font-size: small;
+        white-space: pre-wrap; 
+    }
+}

@@ -1,28 +1,29 @@
 import React from "react";
 import styles from "./PostList.module.scss";
-import { useEffect, useState } from "react";
-import { getPosts } from "../../data/Data";
-import { Link } from "react-router-dom";
+// import { useEffect, useState } from "react";
+// import { getPosts } from "../../data/Data";
+// import { Link } from "react-router-dom";
 
 const PostList = () => {
-  const [loading, setLoading] = useState(false);
-  const [posts, setPosts] = useState([]);
-  const fetchBlogs = async () => {
-    setLoading(true);
+  // const [loading, setLoading] = useState(false);
+  // const [posts, setPosts] = useState([]);
+  // const fetchBlogs = async () => {
+  //   setLoading(true);
 
-    const res = await getPosts();
+  //   const res = await getPosts();
 
-    setPosts([...res]);
-    setLoading(false);
-  };
-  useEffect(() => {
-    fetchBlogs();
-  }, []);
+  //   setPosts([...res]);
+  //   setLoading(false);
+  // };
+  // useEffect(() => {
+  //   fetchBlogs();
+  // }, []);
 
   return (
     <>
       <div className={styles.post__container}>
-        {posts.map((post) => (
+        <p>Coming soon...</p>
+        {/* {posts.map((post) => (
           <div key={post.id} className={styles.post}>
             <Link to={`/blog/${post.id}`} className={styles.post__link}>
               <p className={styles.post__date}>
@@ -32,7 +33,7 @@ const PostList = () => {
               <p className={styles.post__byline}>{post.byline}</p>
             </Link>
           </div>
-        ))}
+        ))} */}
       </div>
     </>
   );

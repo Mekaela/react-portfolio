@@ -4,27 +4,17 @@
   display: block;
   text-align: left;
   padding-left: 15%;
-  align-items: center;
-  min-height: 580px;
-  height: 82vh;
+  height: 75vh;
   &__title {
     font-size: 2em;
-    &_chat {
-      color: rgb(1, 95, 99);
-    }
   }
-  &__form {
-    background-color: rgb(96, 95, 95);
-    max-width: 230px;
-    padding: 10px;
-    &_element {
-      width: 95%;
-      margin-bottom: 5px;
-      padding: 5px;
-    }
-    &_button {
-      width: 100%;
-      background-color: rgb(1, 95, 99);
+  &__chat {
+    color: rgb(1, 95, 99);
+    &_linkedIn {
+      color: rgb(1, 95, 99);
+      &:hover {
+        color: rgb(0, 122, 126);
+      }
     }
   }
 }
