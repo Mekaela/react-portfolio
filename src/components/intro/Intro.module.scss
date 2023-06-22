@@ -1,31 +1,30 @@
 .header {
-    min-height: 500px;
-    height: 100vh;
-    padding-top: 4%;
-    background-color: rgb(2, 135, 139);
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+  min-height: 100vh;
+  padding-top: 4%;
+  background-color: rgb(2, 135, 139);
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 
-    &__h1 {
-        font-size: 4em;
-        text-align: left;
-        margin: 50px 10% 0% 10%;
-    }
+  &__h1 {
+    font-size: 4em;
+    text-align: left;
+    margin: 50px 10% 0% 10%;
+  }
 
-    &__color {
-        color: rgb(214, 211, 211);
-    }
+  &__color {
+    color: rgb(214, 211, 211);
+  }
 
-    &__intro {
-        // padding: 5%;
-        &_paragraph {
-            font-size: 1.3em;
-            margin: 30px 11%;
-            color: rgb(48, 48, 48);
-            text-align: left;
-            max-width: 600px;
-        }
+  &__intro {
+    // padding: 5%;
+    &_paragraph {
+      font-size: 1.3em;
+      margin: 30px 11%;
+      color: rgb(48, 48, 48);
+      text-align: left;
+      max-width: 600px;
     }
+  }
 }

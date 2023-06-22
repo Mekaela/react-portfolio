@@ -8,7 +8,15 @@ const Contact = () => {
         <h1>
           Doing interesting work?
           <br />
-          <span className={styles.contact__chat}>Contact me on <a className={styles.contact__chat_linkedIn} href="https://www.linkedin.com/in/mekaela-stevenson-b215b954/" >LinkedIn</a></span>
+          <span className={styles.contact__chat}>
+            Contact me on{" "}
+            <a
+              className={styles.contact__chat}
+              href="https://www.linkedin.com/in/mekaela-stevenson-b215b954/"
+            >
+              LinkedIn
+            </a>
+          </span>
         </h1>
       </div>
     </section>
