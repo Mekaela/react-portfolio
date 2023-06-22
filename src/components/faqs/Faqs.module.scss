@@ -1,14 +1,15 @@
 .faqs {
     max-width: 80%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 80px;
     font-family: sans-serif;
     &__title {
         margin: 0px;
         font-weight: 500;
     }
     &__intro {
-        font-size: small;
+        font-size: 1.2em;
+        padding-bottom: 10px;
     }
     &__container {
         background-color: rgb(188, 207, 209);
@@ -18,10 +19,11 @@
     }
     &__question {
         margin: 5px;
+        font-size: 1.2em;
     }
     &__answer {
         margin: 0px;
-        font-size: small;
+        font-size: 1.2em;
         white-space: pre-wrap; 
     }
 }

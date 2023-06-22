@@ -10,13 +10,14 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/'>
+          <Route path=''>
             <Route index element={<Home />} />
-            <Route path='' element={<Home />} />
+            <Route path='/react-portfolio' element={<Home />} />
             <Route index element={<Blog />} />
-            <Route path='blog' element={<Blog />} />
+            <Route path='/blog' element={<Blog />} />
             <Route path='/blog/:id' element={<BlogPost/>}  />
-            <Route path='faq' element={<Faq />} />
+            <Route index element={<Faq />} />
+            <Route path='/faq' element={<Faq />} />
           </Route>
         </Routes>
       </BrowserRouter>

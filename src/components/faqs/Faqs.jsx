@@ -20,11 +20,11 @@ const Faqs = () => {
 
     return (
         <div className={styles.faqs}>
-            <h2 className={styles.faqs__title}>FAQs</h2>
+            <h1 className={styles.faqs__title}>FAQs</h1>
             <p className={styles.faqs__intro}>Hi Recruiters. I've gotten some questions repeatedly throughout my job search, and I get it - my background is different than most people. So here are some answers</p>
             {qAndAs.map((qAndA) => (
                 <div key={qAndA.id} className={styles.faqs__container}>
-                    <h5 className={styles.faqs__question}>{qAndA.question}</h5>
+                    <h4 className={styles.faqs__question}>{qAndA.question}</h4>
                     <p className={styles.faqs__answer}>{qAndA.answer}</p>
                 </div>
             ))}
