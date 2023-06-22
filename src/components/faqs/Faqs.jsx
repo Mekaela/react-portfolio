@@ -17,12 +17,6 @@ const qAndAs = [
   },
   {
     id: 3,
-    question: "What is my salary expectation?",
-    answer:
-      "This is a hard one to determine in a FAQ section as it depends on the role, location, ability to remote work and what I'll be able to learn from the role. In general, as a developer I'd be expecting $85,000 (fully remote, +super) to $100,000 (fully in office, +super), and as a BA $650/day to $800/day. These aren't concrete though so chat with me about the role if that doesn't quite suit.",
-  },
-  {
-    id: 4,
     question: "Where am I based?",
     answer:
       "I'm between Perth and Sydney at the moment, but have lived in a few places around Australia and am happy anywhere as long as the company culture is good. My only restriciton is that my partner is on a partner visa, so I need to be based in Australia",
