@@ -1,22 +1,35 @@
 .post {
-    padding: 30px;
+    padding-top: 60px;
     text-align: left;
     background-color: rgb(214, 211, 211);
     min-height: 80vh;
+    font-family: sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+    &__coverImg {
+        width: 400px;
+        max-width: 70%;
+        margin: auto;
+    }
     &__title {
         margin-bottom: 0px;
+        display: flex;
+        margin: auto;
+    }
+    &__author {
+        font-size: small;
+        margin: auto;
     }
     &__body {
-        font-size: 70%;
+        font-size: 110%;
         margin: 10px 5px;
+        max-width: 800px;
+        // width: 100%;
+        // margin: auto;
     }
     &__date {
         font-size: x-small;
         margin: 0px;
     }
-    &__author {
-        font-size: x-small;
-        padding: 0px;
-        margin: 0px;
-    }
+    
 }

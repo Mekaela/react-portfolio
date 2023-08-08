@@ -29,24 +29,9 @@ export const getPost = async (id) => {
 };
 
 
-// get markdown url using blogUrl (firebase storage)
-// TODO: The operation 'getDownloadURL' cannot be performed on a root reference, create a non-root reference using child, such as .child('file.png')
-export const getPostBody = async (postUrl) => {
+
+export const getImage = async (location) => {
   const storage = getStorage();
-  const starsRef = ref(storage, postUrl);
-  console.log('post url: ' + postUrl);
-
-  getDownloadURL(starsRef) 
-    .then((url) => {
-      const xhr = new XMLHttpRequest();
-      xhr.responseType = 'blob';
-      xhr.onload = (event) => {
-        const blob = xhr.response;
-      };
-      xhr.open('GET', url);
-      xhr.send();
-      console.log('success url: ' + xhr);
-    })
-    // .catch()
-
+  const ImageURL = await getDownloadURL(ref(storage, location));
+  return ImageURL;
 }
